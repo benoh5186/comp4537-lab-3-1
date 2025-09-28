@@ -97,5 +97,5 @@ class API {
 
 
 
-const server = new Server(8000)
+const server = new Server(process.env.PORT || 8000)
 server.start()
